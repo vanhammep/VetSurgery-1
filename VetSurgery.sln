@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetSurgery.Web", "VetSurger
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetSurgery.Tests", "VetSurgery.Tests\VetSurgery.Tests.csproj", "{E52642AE-77E9-4B0C-9823-F76A1BE6EB9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetSurgery.Domain", "VetSurgery.Domain\VetSurgery.Domain.csproj", "{30D23770-2A6E-4C8F-AA68-A0FB0505493D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,16 @@ Global
 		{E52642AE-77E9-4B0C-9823-F76A1BE6EB9D}.QA|Any CPU.Build.0 = Release|Any CPU
 		{E52642AE-77E9-4B0C-9823-F76A1BE6EB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52642AE-77E9-4B0C-9823-F76A1BE6EB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.DevCI|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.DevCI|Any CPU.Build.0 = Debug|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Live|Any CPU.ActiveCfg = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Live|Any CPU.Build.0 = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.QA|Any CPU.Build.0 = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D23770-2A6E-4C8F-AA68-A0FB0505493D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
