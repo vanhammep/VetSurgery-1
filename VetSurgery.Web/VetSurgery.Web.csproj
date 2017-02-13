@@ -233,15 +233,18 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <None Include="Web.DevCI.config">
+    <Content Include="VetSurgery.Web.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.DevCI.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Live.config">
+    </Content>
+    <Content Include="Web.Live.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.QA.config">
+    </Content>
+    <Content Include="Web.QA.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

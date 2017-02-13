@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VetSurgery.Web</id>
+    <version></version>
+    <authors>Business Systems</authors>
+    <owners>Houses of Parliament</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://example.com/</licenseUrl>
+    <projectUrl>http://example.com/</projectUrl>
+    <description>The VetSurgery.Web deployment package, built on 2/12/2017</description>
+    <releaseNotes></releaseNotes>
+    <copyright>2017 Houses of Parliament</copyright>
+  </metadata>
+</package>
